@@ -1,6 +1,4 @@
-FROM node:10
-
-RUN mkdir -p /home/node/app/node_modules && chown -R node:node /home/node/app
+FROM node:14
 
 WORKDIR /home/node/app
 
