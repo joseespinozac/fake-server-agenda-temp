@@ -1,0 +1,64 @@
+{
+  "partidas": [
+      {
+        "id":1,
+        "partida":"25100001",
+        "descripcion": "Sustancias Químicas"
+      },
+      {
+        "id":2,
+        "partida":"25300001",
+        "descripcion":"Medicinas y Productos Farmacéuticos"
+      },
+      {
+        "id":3,
+        "partida":"25400001",
+        "descripcion": "Materiales, Accesorios y Suministros Médicos"
+      },
+      {
+        "id":4,
+        "partida":"25500001",
+        "descripcion":"Materiales, Accesorios y Suministros de Laboratorio"
+      },
+      {
+        "id":5,
+        "partida":"25900001",
+        "descripcion":"Otros Productos Químicos"
+      },
+      {
+        "id":6,
+        "partida":"27100001",
+        "descripcion":"Vestuario y uniformes"
+      },
+      {
+        "id":7,
+        "partida":"27200001",
+        "descripcion":"Prendas de Protección"
+      },
+      {
+        "id":8,
+        "partida":"27500001",
+        "descripcion":"Blancos y Otros Productos Textiles"
+      }
+
+  ],
+  "claves": [
+
+  ],
+  "usuarios":[
+    {
+        "usuario": "jaespinoza", "correo": "jaespinoza@ssaver.gob.mx", "password": "123", "nombre": "José Alberto", "apellidoPaterno": "Espinoza", "apellidoMaterno": "Castillo",
+        "roles": [
+          {
+            "idRol": 1
+          }
+        ]
+    }
+  ],
+  "roles":[
+    {"id": 1, "rol": "proveedor"},
+    {"id": 2, "rol": "revisor"},
+    {"id": 3, "rol": "control-calidad"},
+    {"id": 4, "rol": "jefe-almacen"}
+  ]
+}
