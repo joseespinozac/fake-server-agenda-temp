@@ -3,63 +3,164 @@
       {
         "id":1,
         "partida":"25100001",
-        "descripcion": "Sustancias Químicas"
+        "descripcion": "Sustancias Químicas",
+        "almacen": 1
       },
       {
         "id":2,
         "partida":"25300001",
-        "descripcion":"Medicinas y Productos Farmacéuticos"
+        "descripcion":"Medicinas y Productos Farmacéuticos",
+        "almacen": 1
       },
       {
         "id":3,
         "partida":"25400001",
-        "descripcion": "Materiales, Accesorios y Suministros Médicos"
+        "descripcion": "Materiales, Accesorios y Suministros Médicos",
+        "almacen": 1
       },
       {
         "id":4,
         "partida":"25500001",
-        "descripcion":"Materiales, Accesorios y Suministros de Laboratorio"
+        "descripcion":"Materiales, Accesorios y Suministros de Laboratorio",
+        "almacen": 1
       },
       {
         "id":5,
         "partida":"25900001",
-        "descripcion":"Otros Productos Químicos"
+        "descripcion":"Otros Productos Químicos",
+        "almacen": 1
       },
       {
         "id":6,
         "partida":"27100001",
-        "descripcion":"Vestuario y uniformes"
+        "descripcion":"Vestuario y uniformes",
+        "almacen": 1
       },
       {
         "id":7,
         "partida":"27200001",
-        "descripcion":"Prendas de Protección"
+        "descripcion":"Prendas de Protección",
+        "almacen": 1
       },
       {
         "id":8,
         "partida":"27500001",
-        "descripcion":"Blancos y Otros Productos Textiles"
+        "descripcion":"Blancos y Otros Productos Textiles",
+        "almacen": 1
       }
 
   ],
   "claves": [
 
   ],
+  "contratos": [
+    {
+      "id": 1,
+      "contrato": "SESVER/DA/C-002/2021",
+      "rfc": "USGH08121996T20",
+      "fecha-contrato": "15/03/2021",
+      "fecha-limite": "30/03/2021",
+      "importe": 9200403.35,
+      "renglones": [
+        { "id": 1, "numeroRenglon": 1, "clavePartida": "010.000.6214.00", "descripcion": "CICLOFOSFAMIDA MONOHIDRATADA DE 1000 MG.", "unidadMedida": "UN ENVASE CON 1 DE FRASCO AMPULA", "cantidad": 200000, "almacen": 1, "precioUnitario": 0.00, "partida": "25100001"},
+        { "id": 2, "numeroRenglon": 2, "clavePartida": "010.000.2149.01", "descripcion": "MISOPROSTOL TABLETAS DE 200 MG.", "unidadMedida": "UN ENVASE CON 28 DE TABLETAS", "cantidad": 100000, "almacen": 1, "precioUnitario": 0.00, "partida": "25100001"},
+        { "id": 3, "numeroRenglon": 3, "clavePartida": "010.000.0611.00", "descripcion": "Epinefrina 1 ml", "unidadMedida": "UN ENVASE CON 50 DE AMPOLLETAS", "cantidad": "200000", "almacen": 1, "precioUnitario": 0.00, "partida": "25100001"},
+        { "id": 4, "numeroRenglon": 4, "clavePartida": "040.000.2651.00", "descripcion": "TRIHEXIFENIDILO CADA TABLETA CONTIENE: CLORHIDRATO DE TRIHEXIFENIDILO 5 MG.", "unidadMedida": "ENVASE CON 50 TABLETAS.", "cantidad": 1000000, "almacen": 1, "precioUnitario": 0.00, "partida": "25100001"},
+        { "id": 5, "numeroRenglon": 5, "clavePartida": "010.000.2627.00", "descripcion": "OXCARBAZEPINA CADA GRAGEA O TABLETA CONTIENE OXCARBAZEPINA 600 MG.", "unidadMedida": "ENVASE CON 20 GRAGEAS O TABLETAS.", "cantidad": 2000000, "almacen": 1, "precioUnitario": 0.00, "partida": "25100001"}
+      ]
+
+    },
+    {
+      "id": 2,
+      "contrato": "SESVER/DA/C-003/2021",
+      "rfc": "USGH08121996T20",
+      "fecha-contrato": "15/03/2021",
+      "fecha-limite": "30/03/2021",
+      "importe": 9200403.35,
+      "renglones": [
+        { "id": 1, "numeroRenglon": 1, "clavePartida": "010.000.6214.00", "descripcion": "CICLOFOSFAMIDA MONOHIDRATADA DE 1000 MG.", "unidadMedida": "UN ENVASE CON 1 DE FRASCO AMPULA", "cantidad": 200000, "almacen": 1, "precioUnitario": 0.00, "partida": "25100001"},
+        { "id": 2, "numeroRenglon": 2, "clavePartida": "010.000.2149.01", "descripcion": "MISOPROSTOL TABLETAS DE 200 MG.", "unidadMedida": "UN ENVASE CON 28 DE TABLETAS", "cantidad": 100000, "almacen": 1, "precioUnitario": 0.00, "partida": "25100001"},
+        { "id": 3, "numeroRenglon": 3, "clavePartida": "010.000.0611.00", "descripcion": "Epinefrina 1 ml", "unidadMedida": "UN ENVASE CON 50 DE AMPOLLETAS", "cantidad": 200000, "almacen": 1, "precioUnitario": 0.00, "partida": "25100001"},
+        { "id": 4, "numeroRenglon": 4, "clavePartida": "040.000.2651.00", "descripcion": "TRIHEXIFENIDILO CADA TABLETA CONTIENE: CLORHIDRATO DE TRIHEXIFENIDILO 5 MG.", "unidadMedida": "ENVASE CON 50 TABLETAS.", "cantidad": 1000000, "almacen": 1, "precioUnitario": 0.00, "partida": "25100001"},
+        { "id": 5, "numeroRenglon": 5, "clavePartida": "010.000.2627.00", "descripcion": "OXCARBAZEPINA CADA GRAGEA O TABLETA CONTIENE OXCARBAZEPINA 600 MG.", "unidadMedida": "ENVASE CON 20 GRAGEAS O TABLETAS.", "cantidad": 2000000, "almacen": 1, "precioUnitario": 0.00, "partida": "25100001"}
+      ]
+
+    },
+    {
+      "id": 3,
+      "contrato": "SESVER/DA/C-004/2021",
+      "rfc": "USGH08121996T20",
+      "fecha-contrato": "20/03/2021",
+      "fecha-limite": "05/04/2021",
+      "importe": 8765456.35,
+      "renglones": [
+        { "id": 1, "numeroRenglon": 1, "clavePartida": "010.000.6214.00", "descripcion": "CICLOFOSFAMIDA MONOHIDRATADA DE 1000 MG.", "unidadMedida": "UN ENVASE CON 1 DE FRASCO AMPULA", "cantidad": 200000, "almacen": 1, "precioUnitario": 0.00, "partida": "25100001"},
+        { "id": 2, "numeroRenglon": 2, "clavePartida": "010.000.2149.01", "descripcion": "MISOPROSTOL TABLETAS DE 200 MG.", "unidadMedida": "UN ENVASE CON 28 DE TABLETAS", "cantidad": 100000, "almacen": 1, "precioUnitario": 0.00, "partida": "25100001"},
+        { "id": 3, "numeroRenglon": 3, "clavePartida": "010.000.0611.00", "descripcion": "Epinefrina 1 ml", "unidadMedida": "UN ENVASE CON 50 DE AMPOLLETAS", "cantidad": 200000, "almacen": 1, "precioUnitario": 0.00, "partida": "25100001" },
+        { "id": 4, "numeroRenglon": 4, "clavePartida": "040.000.2651.00", "descripcion": "TRIHEXIFENIDILO CADA TABLETA CONTIENE: CLORHIDRATO DE TRIHEXIFENIDILO 5 MG.", "unidadMedida": "ENVASE CON 50 TABLETAS.", "cantidad": 1000000, "almacen": 1, "precioUnitario": 0.00, "partida": "25100001"},
+        { "id": 5, "numeroRenglon": 5, "clavePartida": "010.000.2627.00", "descripcion": "OXCARBAZEPINA CADA GRAGEA O TABLETA CONTIENE OXCARBAZEPINA 600 MG.", "unidadMedida": "ENVASE CON 20 GRAGEAS O TABLETAS.", "cantidad": 2000000, "almacen": 1, "precioUnitario": 0.00, "partida": "25100001"}
+      ]
+
+    },
+    {
+      "id": 3,
+      "contrato": "SESVER/DA/C-005/2021",
+      "rfc": "USGH08121996T20",
+      "fecha-contrato": "15/03/2021",
+      "fecha-limite": "30/03/2021",
+      "importe": 6009890.98,
+      "renglones": [
+        { "id": 1, "numeroRenglon": 1, "clavePartida": "010.000.6214.00", "descripcion": "CICLOFOSFAMIDA MONOHIDRATADA DE 1000 MG.", "unidadMedida": "UN ENVASE CON 1 DE FRASCO AMPULA", "cantidad": 200000, "almacen": 1, "precioUnitario": 0.00, "partida": "25100001"},
+        { "id": 2, "numeroRenglon": 2, "clavePartida": "010.000.2149.01", "descripcion": "MISOPROSTOL TABLETAS DE 200 MG.", "unidadMedida": "UN ENVASE CON 28 DE TABLETAS", "cantidad": 100000, "almacen": 1, "precioUnitario": 0.00, "partida": "25100001"},
+        { "id": 3, "numeroRenglon": 3, "clavePartida": "010.000.0611.00", "descripcion": "Epinefrina 1 ml", "unidadMedida": "UN ENVASE CON 50 DE AMPOLLETAS", "cantidad": 200000, "almacen": 1, "precioUnitario": 0.00, "partida": "25100001"},
+        { "id": 4, "numeroRenglon": 4, "clavePartida": "040.000.2651.00", "descripcion": "TRIHEXIFENIDILO CADA TABLETA CONTIENE: CLORHIDRATO DE TRIHEXIFENIDILO 5 MG.", "unidadMedida": "ENVASE CON 50 TABLETAS.", "cantidad": 1000000, "almacen": 1, "precioUnitario": 0.00, "partida": "25100001"},
+        { "id": 5, "numeroRenglon": 5, "clavePartida": "010.000.2627.00", "descripcion": "OXCARBAZEPINA CADA GRAGEA O TABLETA CONTIENE OXCARBAZEPINA 600 MG.", "unidadMedida": "ENVASE CON 20 GRAGEAS O TABLETAS.", "cantidad": 2000000, "almacen": 1, "precioUnitario": 0.00, "partida": "25100001"},
+        { "id": 6, "numeroRenglon": 6, "clavePartida": "010.000.6214.00", "descripcion": "CICLOFOSFAMIDA MONOHIDRATADA DE 1000 MG.", "unidadMedida": "UN ENVASE CON 1 DE FRASCO AMPULA", "cantidad": 200000, "almacen": 1, "precioUnitario": 0.00, "partida": "25100001"},
+        { "id": 7, "numeroRenglon": 7, "clavePartida": "010.000.2149.01", "descripcion": "MISOPROSTOL TABLETAS DE 200 MG.", "unidadMedida": "UN ENVASE CON 28 DE TABLETAS", "cantidad": 100000, "almacen": 1, "precioUnitario": 0.00, "partida": "25100001"},
+        { "id": 8, "numeroRenglon": 8, "clavePartida": "010.000.0611.00", "descripcion": "Epinefrina 1 ml", "unidadMedida": "UN ENVASE CON 50 DE AMPOLLETAS", "cantidad": 200000, "almacen": 1, "precioUnitario": 0.00, "partida": "25100001"},
+        { "id": 9, "numeroRenglon": 9, "clavePartida": "040.000.2651.00", "descripcion": "TRIHEXIFENIDILO CADA TABLETA CONTIENE: CLORHIDRATO DE TRIHEXIFENIDILO 5 MG.", "unidadMedida": "ENVASE CON 50 TABLETAS.", "cantidad": 1000000, "almacen": 1, "precioUnitario": 0.00, "partida": "25100001"},
+        { "id": 10, "numeroRenglon": 10, "clavePartida": "010.000.2627.00", "descripcion": "OXCARBAZEPINA CADA GRAGEA O TABLETA CONTIENE OXCARBAZEPINA 600 MG.", "unidadMedida": "ENVASE CON 20 GRAGEAS O TABLETAS.", "cantidad": 2000000, "almacen": 1, "precioUnitario": 0.00, "partida": "25100001"}
+      ]
+
+    }
+  ],
+  "citas": [
+
+  ],
   "usuarios":[
     {
-        "usuario": "jaespinoza", "correo": "jaespinoza@ssaver.gob.mx", "password": "123", "nombre": "José Alberto", "apellidoPaterno": "Espinoza", "apellidoMaterno": "Castillo",
-        "roles": [
-          {
-            "idRol": 1
-          }
-        ]
+        "id":1, "usuario": "jaespinoza", "correo": "jaespinoza@ssaver.gob.mx", "password": "123", "nombre": "José Alberto", "apellidoPaterno": "Espinoza", "apellidoMaterno": "Castillo"
+    },
+    {
+        "id":2, "usuario": "USGH08121996T20", "rfc":"USGH08121996T20", "correo": "empresaA@empresaA.com", "password": "123", "responsable": "Juan Marcos Ortíz Cruz", "telefono": "9876786543"
     }
+  ],
+  "usuarioRol ": [
+    {"id": 1, "usuariosId": 1, "rolesId": 2},
+    {"id": 2, "usuariosId": 2, "rolesId": 1}
   ],
   "roles":[
     {"id": 1, "rol": "proveedor"},
     {"id": 2, "rol": "revisor"},
     {"id": 3, "rol": "control-calidad"},
     {"id": 4, "rol": "jefe-almacen"}
+  ],
+  "almacenes":[
+    {"id": 1, "nombre": "Almacén A"},
+    {"id": 2, "nombre": "Almacén B"},
+    {"id": 3, "nombre": "Almacén C"},
+    {"id": 4, "nombre": "Almacén B - Acivo Fijo"}
+  ],
+  "vehiculo": [
+    {"id": 1, "descripcion": "Torton"},
+    {"id": 2, "descripcion": "Camión"},
+    {"id": 3, "descripcion": "Camioneta"},
+    {"id": 4, "descripcion": "Trailer"},
+    {"id": 5, "descripcion": "Automovil"}
+  ],
+  "medidasGenerales": [
+    { "id": 1, "descripcion": "Tarima" },
+    { "id": 2, "descripcion": "Caja" }
   ]
 
 }
