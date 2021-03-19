@@ -132,7 +132,8 @@
         "id":1, "usuario": "jaespinoza", "correo": "jaespinoza@ssaver.gob.mx", "password": "123", "nombre": "José Alberto", "apellidoPaterno": "Espinoza", "apellidoMaterno": "Castillo"
     },
     {
-        "id":2, "usuario": "USGH08121996T20", "rfc":"USGH08121996T20", "correo": "empresaA@empresaA.com", "password": "123", "responsable": "Juan Marcos Ortíz Cruz", "telefono": "9876786543"
+        "id":2, "usuario": "USGH08121996T20", "rfc":"USGH08121996T20", "correo": "empresaA@empresaA.com", "password": "123", "responsable": "Juan Marcos Ortíz Cruz", "telefono": "
+        "
     }
   ],
   "usuarioRol ": [
@@ -146,7 +147,19 @@
     {"id": 4, "rol": "jefe-almacen"}
   ],
   "almacenes":[
-    {"id": 1, "nombre": "Almacén A"},
+    {
+      "id": 1,
+      "nombre": "Almacén A",
+      "diasComprometidos": [
+        {"id": 1, "numero": 6},
+        {"id": 2, "numero": 0}  
+      ],
+      "fechasInhabiles": [
+        {"id": 1, "fecha": "02/03/2021"}
+      ],
+      "horaInicioDeEntregas": "10:30:00",
+
+    },
     {"id": 2, "nombre": "Almacén B"},
     {"id": 3, "nombre": "Almacén C"},
     {"id": 4, "nombre": "Almacén B - Acivo Fijo"}
