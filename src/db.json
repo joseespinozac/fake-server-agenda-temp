@@ -58,15 +58,15 @@
       "id": 1,
       "contrato": "SESVER/DA/C-002/2021",
       "rfc": "USGH08121996T20",
-      "fecha-contrato": "15/03/2021",
-      "fecha-limite": "30/03/2021",
+      "fechaContrato": "15/03/2021",
+      "fechaLimite": "30/03/2021",
       "importe": 9200403.35,
       "renglones": [
         { "id": 1, "numeroRenglon": 1, "clavePartida": "010.000.6214.00", "descripcion": "CICLOFOSFAMIDA MONOHIDRATADA DE 1000 MG.", "unidadMedida": "UN ENVASE CON 1 DE FRASCO AMPULA", "cantidad": 200000, "almacen": 1, "precioUnitario": 0.00, "partida": "25100001"},
         { "id": 2, "numeroRenglon": 2, "clavePartida": "010.000.2149.01", "descripcion": "MISOPROSTOL TABLETAS DE 200 MG.", "unidadMedida": "UN ENVASE CON 28 DE TABLETAS", "cantidad": 100000, "almacen": 1, "precioUnitario": 0.00, "partida": "25100001"},
         { "id": 3, "numeroRenglon": 3, "clavePartida": "010.000.0611.00", "descripcion": "Epinefrina 1 ml", "unidadMedida": "UN ENVASE CON 50 DE AMPOLLETAS", "cantidad": "200000", "almacen": 1, "precioUnitario": 0.00, "partida": "25100001"},
-        { "id": 4, "numeroRenglon": 4, "clavePartida": "040.000.2651.00", "descripcion": "TRIHEXIFENIDILO CADA TABLETA CONTIENE: CLORHIDRATO DE TRIHEXIFENIDILO 5 MG.", "unidadMedida": "ENVASE CON 50 TABLETAS.", "cantidad": 1000000, "almacen": 1, "precioUnitario": 0.00, "partida": "25100001"},
-        { "id": 5, "numeroRenglon": 5, "clavePartida": "010.000.2627.00", "descripcion": "OXCARBAZEPINA CADA GRAGEA O TABLETA CONTIENE OXCARBAZEPINA 600 MG.", "unidadMedida": "ENVASE CON 20 GRAGEAS O TABLETAS.", "cantidad": 2000000, "almacen": 1, "precioUnitario": 0.00, "partida": "25100001"}
+        { "id": 4, "numeroRenglon": 4, "clavePartida": "040.000.2651.00", "descripcion": "TRIHEXIFENIDILO CADA TABLETA CONTIENE: CLORHIDRATO DE TRIHEXIFENIDILO 5 MG.", "unidadMedida": "ENVASE CON 50 TABLETAS.", "cantidad": 1000000, "almacen": 2, "precioUnitario": 0.00, "partida": "25100001"},
+        { "id": 5, "numeroRenglon": 5, "clavePartida": "010.000.2627.00", "descripcion": "OXCARBAZEPINA CADA GRAGEA O TABLETA CONTIENE OXCARBAZEPINA 600 MG.", "unidadMedida": "ENVASE CON 20 GRAGEAS O TABLETAS.", "cantidad": 2000000, "almacen": 3, "precioUnitario": 0.00, "partida": "25100001"}
       ]
 
     },
@@ -74,8 +74,8 @@
       "id": 2,
       "contrato": "SESVER/DA/C-003/2021",
       "rfc": "USGH08121996T20",
-      "fecha-contrato": "15/03/2021",
-      "fecha-limite": "30/03/2021",
+      "fechaContrato": "15/03/2021",
+      "fechaLimite": "30/03/2021",
       "importe": 9200403.35,
       "renglones": [
         { "id": 1, "numeroRenglon": 1, "clavePartida": "010.000.6214.00", "descripcion": "CICLOFOSFAMIDA MONOHIDRATADA DE 1000 MG.", "unidadMedida": "UN ENVASE CON 1 DE FRASCO AMPULA", "cantidad": 200000, "almacen": 1, "precioUnitario": 0.00, "partida": "25100001"},
@@ -90,8 +90,8 @@
       "id": 3,
       "contrato": "SESVER/DA/C-004/2021",
       "rfc": "USGH08121996T20",
-      "fecha-contrato": "20/03/2021",
-      "fecha-limite": "05/04/2021",
+      "fechaContrato": "20/03/2021",
+      "fechaLimite": "05/04/2021",
       "importe": 8765456.35,
       "renglones": [
         { "id": 1, "numeroRenglon": 1, "clavePartida": "010.000.6214.00", "descripcion": "CICLOFOSFAMIDA MONOHIDRATADA DE 1000 MG.", "unidadMedida": "UN ENVASE CON 1 DE FRASCO AMPULA", "cantidad": 200000, "almacen": 1, "precioUnitario": 0.00, "partida": "25100001"},
@@ -106,8 +106,8 @@
       "id": 3,
       "contrato": "SESVER/DA/C-005/2021",
       "rfc": "USGH08121996T20",
-      "fecha-contrato": "15/03/2021",
-      "fecha-limite": "30/03/2021",
+      "fechaContrato": "15/03/2021",
+      "fechaLimite": "30/03/2021",
       "importe": 6009890.98,
       "renglones": [
         { "id": 1, "numeroRenglon": 1, "clavePartida": "010.000.6214.00", "descripcion": "CICLOFOSFAMIDA MONOHIDRATADA DE 1000 MG.", "unidadMedida": "UN ENVASE CON 1 DE FRASCO AMPULA", "cantidad": 200000, "almacen": 1, "precioUnitario": 0.00, "partida": "25100001"},
@@ -125,15 +125,14 @@
     }
   ],
   "citas": [
-
+    
   ],
   "usuarios":[
     {
         "id":1, "usuario": "jaespinoza", "correo": "jaespinoza@ssaver.gob.mx", "password": "123", "nombre": "José Alberto", "apellidoPaterno": "Espinoza", "apellidoMaterno": "Castillo"
     },
     {
-        "id":2, "usuario": "USGH08121996T20", "rfc":"USGH08121996T20", "correo": "empresaA@empresaA.com", "password": "123", "responsable": "Juan Marcos Ortíz Cruz", "telefono": "
-        "
+        "id":2, "usuario": "USGH08121996T20", "rfc":"USGH08121996T20", "correo": "empresaA@empresaA.com", "password": "123", "responsable": "Juan Marcos Ortíz Cruz", "telefono": "2282731021"
     }
   ],
   "usuarioRol ": [
@@ -155,16 +154,56 @@
         {"id": 2, "numero": 0}  
       ],
       "fechasInhabiles": [
-        {"id": 1, "fecha": "02/03/2021"}
+        {"id": 1, "fecha": "02/03/2021"},
+        {"id": 2, "fecha": "04/03/2021"}
       ],
       "horaInicioDeEntregas": "10:30:00",
-
+      "horaFinDeEntregas":"15:00:00"
     },
-    {"id": 2, "nombre": "Almacén B"},
-    {"id": 3, "nombre": "Almacén C"},
-    {"id": 4, "nombre": "Almacén B - Acivo Fijo"}
+    {
+      "id": 2, 
+      "nombre": "Almacén B",
+      "diasComprometidos": [
+        {"id": 1, "numero": 6},
+        {"id": 2, "numero": 0}  
+      ],
+      "fechasInhabiles": [
+        {"id": 1, "fecha": "02/03/2021"},
+        {"id": 2, "fecha": "04/03/2021"}
+      ],
+      "horaInicioDeEntregas": "10:30:00",
+      "horaFinDeEntregas":"15:00:00"
+    },
+    {
+      "id": 3, 
+      "nombre": "Almacén C",
+      "diasComprometidos": [
+        {"id": 1, "numero": 6},
+        {"id": 2, "numero": 0}  
+      ],
+      "fechasInhabiles": [
+        {"id": 1, "fecha": "02/03/2021"},
+        {"id": 2, "fecha": "04/03/2021"}
+      ],
+      "horaInicioDeEntregas": "10:30:00",
+      "horaFinDeEntregas":"15:00:00"
+    },
+    {
+      "id": 2, 
+      "nombre": "Almacén B - Activo fijo",
+      "diasComprometidos": [
+        {"id": 1, "numero": 6},
+        {"id": 2, "numero": 0}  
+      ],
+      "fechasInhabiles": [
+        {"id": 1, "fecha": "02/03/2021"},
+        {"id": 2, "fecha": "04/03/2021"}
+      ],
+      "horaInicioDeEntregas": "10:30:00",
+      "horaFinDeEntregas":"15:00:00"
+    }
   ],
-  "vehiculo": [
+  "vehiculos": [
     {"id": 1, "descripcion": "Torton"},
     {"id": 2, "descripcion": "Camión"},
     {"id": 3, "descripcion": "Camioneta"},
