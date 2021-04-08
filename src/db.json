@@ -148,7 +148,7 @@
   "almacenes":[
     {
       "id": 1,
-      "nombre": "Almacén A",
+      "nombre": "ALMACEN A",
       "diasComprometidos": [
         {"id": 1, "numero": 6},
         {"id": 2, "numero": 0}  
@@ -162,7 +162,7 @@
     },
     {
       "id": 2, 
-      "nombre": "Almacén B",
+      "nombre": "ALMACEN B",
       "diasComprometidos": [
         {"id": 1, "numero": 6},
         {"id": 2, "numero": 0}  
@@ -176,7 +176,7 @@
     },
     {
       "id": 3, 
-      "nombre": "Almacén C",
+      "nombre": "ALMACEN C",
       "diasComprometidos": [
         {"id": 1, "numero": 6},
         {"id": 2, "numero": 0}  
@@ -190,7 +190,7 @@
     },
     {
       "id": 2, 
-      "nombre": "Almacén B - Activo fijo",
+      "nombre": "ALMACEN B - Activo fijo",
       "diasComprometidos": [
         {"id": 1, "numero": 6},
         {"id": 2, "numero": 0}  
@@ -200,7 +200,8 @@
         {"id": 2, "fecha": "04/03/2021"}
       ],
       "horaInicioDeEntregas": "10:30:00",
-      "horaFinDeEntregas":"15:00:00"
+      "horaFinDeEntregas":"15:00:00",
+      "intervalo": 30
     }
   ],
   "vehiculos": [
@@ -212,7 +213,9 @@
   ],
   "medidasGenerales": [
     { "id": 1, "descripcion": "Tarima" },
-    { "id": 2, "descripcion": "Caja" }
+    { "id": 2, "descripcion": "Pieza" },
+    { "id": 3, "descripcion": "Insumo frio" },
+    { "id": 4, "descripcion": "Caja"}
   ]
 
 }
